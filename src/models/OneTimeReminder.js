@@ -22,7 +22,7 @@ const oneTimeReminderSchema = new Schema(
     status: {
       type: String,
       // "pending", "scheduled", "done", "cancelled",
-      default: 'pending',
+      default: 'cancelled',
     },
     createdAt: {
       type: Date,
